@@ -89,6 +89,3 @@ cd frontend && npm run build
 
 The tests cover cross-advisor isolation, session/CSRF behavior, validation, the required API shapes, monthly alignment, and battery energy invariants. A final clean Docker build and browser journey verify the submission path.
 
-## Submission
-
-Provide one GitHub repository URL with this root `Dockerfile` and README. Make it public or grant Praeter access before sending the link. Do not share any account credentials; reviewers can register their own. Hosting is optional and should not be paid for for this assessment.
