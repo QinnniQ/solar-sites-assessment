@@ -4,6 +4,16 @@ An advisor workspace for managing client solar sites and comparing household sol
 
 **Optional live demo:** [solar.nickcloud.dev](https://solar.nickcloud.dev/). Reviewers can register their own account. The deployment uses the same Docker image described below; its isolated container, persistent data volume, and HTTPS reverse proxy are documented in [deploy/README.md](deploy/README.md).
 
+## Application preview
+
+**Welcome and sign-in.** Advisors enter their private workspace or create an account.
+
+![Solar Sites welcome and sign-in screen](docs/images/sign-in.png)
+
+**Example site analysis.** A client site shows its saved inputs and PVGIS annual and monthly production estimates; the battery comparison follows on the same page.
+
+![Example client-site production analysis](docs/images/site-analysis.png)
+
 ## Start the complete application
 
 Docker is the only prerequisite. From the repository root:
