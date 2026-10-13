@@ -2,6 +2,8 @@
 
 An advisor workspace for managing client solar sites and comparing household solar self-use with and without a home battery. Built for Praeter's full-stack assessment.
 
+**Optional live demo:** [solar.nickcloud.dev](https://solar.nickcloud.dev/). Reviewers can register their own account. The deployment uses the same Docker image described below; its isolated container, persistent data volume, and HTTPS reverse proxy are documented in [deploy/README.md](deploy/README.md).
+
 ## Start the complete application
 
 Docker is the only prerequisite. From the repository root:
